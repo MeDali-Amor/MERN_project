@@ -1,0 +1,84 @@
+.share {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+}
+.share-top .user-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.share-wrapper {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    background: #f6f6f6;
+    border-radius: 20px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.share-top {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0 1.5rem;
+}
+/* .share-hr {
+    margin: 2rem 2rem 1rem 0rem;
+    justify-self: center;
+    width: 100%;
+
+    box-shadow: inset 9.91px 9.91px 15px #d9dade,
+        inset -9.91px -9.91px 15px #ffffff;
+    height: 2px;
+} */
+.share-input {
+    background: #eef0f4;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    width: 90%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: inset 9.91px 9.91px 15px #d9dade,
+        inset -9.91px -9.91px 15px #ffffff;
+}
+.share-input:focus {
+    outline: none;
+}
+.share-bottom {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.share-bottom div {
+    margin-left: 3.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.share-bottom div:hover {
+    box-shadow: inset 9.91px 9.91px 15px #d9dade,
+        inset -9.91px -9.91px 15px #ffffff;
+}
+.share-bottom div p {
+    margin-left: 0.75rem;
+    font-size: 1rem;
+}
+.share-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    background: #eef0f4;
+    border-radius: 20px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+}
+.share-btn:focus {
+    outline: none;
+}
